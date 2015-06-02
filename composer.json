@@ -1,0 +1,21 @@
+{
+    "name": "ezweb/predis-kit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Rochette",
+            "email": "mathieu@rochette.cc"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ez\\PredisKit\\": "src/"
+        }
+    },
+    "require": {
+        "predis/predis": "~1.0"
+    },
+    "require-dev": {
+        "behat/behat": "~3.0"
+    }
+}
